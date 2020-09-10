@@ -1,0 +1,139 @@
+@import
+url('https://fonts.googleapis.com/css?familly#Roboto:400,700');
+body{
+    overflow-y:scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.08);
+    font-size: 14px;
+    letter-spacing: 0;
+    font-family: Arial, sans-serif;
+}
+.bgc{
+    background: Blue;
+    height: 60px;
+    margin-top: 10px;
+    width: 100%;
+}
+.autocomplete{
+    margin-left: 300px;
+    background: #fff;
+    position: absolute;
+    width: 500px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+}
+.autocomplete .close{
+    position: absolute;
+    font-size: 13px;
+    z-index: 10px;
+    top: 10px;
+    left: calc(130% - 50%);
+    color: #aaa;
+    cursor: pointer;
+    display: none;
+}
+.autocomplete .close.visible{
+    display: block;
+}
+input{
+    padding: 10px 10px;
+    font-weight: 200px;
+    width: 50%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #666;
+}
+/*input:focus{
+    border-bottom-color: tomato;
+}*/
+.dialog{
+    width: 100%;
+    display: none;
+    min-height: 20px;
+    max-height: 230px;
+    overflow: scroll;
+    border-top: 1px solid #f4f4f4;
+}
+.dialog.open{
+    display: block;
+}
+.dialog div{
+    padding: 10px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.dialog div:hover{
+    background: #f2f2f2;
+}
+.dlogo{
+    float: left;
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.plogo{
+    width: 100%;
+    height: 10px;
+    margin-left: 1000px;
+    margin-top: -10px;
+    color: white;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+}
+ul li{
+    float: left;
+    margin-top: 10px;
+    color: #fff;
+}
+ul li a{
+    width: 150px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.ahovera1{
+    color: #fff;
+}
+.ahovera{
+    color: #000;
+}
+.ahovera:hover{
+    background: white;
+}
+ul li ul{
+    border-radius: 30px;
+    display: none;
+}
+ul li ul li{
+    float: none;
+    color: black;
+}
+ul li:hover ul{
+    display: block;
+}
+
+.order{
+    height: 40%;
+    margin-top: 100px;
+    background: rgb(117, 115, 115);
+}
+#f001f{
+    margin-top: 254px;
+    background-color: #0000ff;
+    width: 100%;
+    height: 5%;
+}

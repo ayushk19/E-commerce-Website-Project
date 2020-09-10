@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Buynow</title>
+        <link rel="StyleSheet" href="Stylesheet Pages/buynow.css">
+        <script type="text/javascript">
+            function show(){
+                alert("Your order Should be Confirmed....it will delivered soon");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrap">
+            <h2>Fill your details</h2>
+            <form action="payment.html" method="GET">
+                <input type="number" placeholder="House No./Building No." required>
+                <input type="text" placeholder="City..." required>
+                <input type="text" placeholder="Landmark (optional)">
+                <input type="text" placeholder="State...." required>
+                <input type="number" placeholder="Mobile No." required>
+                <input type="number" placeholder="Alternate Mobile No.">
+                <textarea rows=4 cols=20 placeholder="Address"></textarea>
+                <input type="number" placeholder="Pincode" required>
+                <input type="submit" value="Submit" onclick="show();">
+                <input type="submit" value="Continue">
+            </form>
+        </div>
+    </body>
+</html>
